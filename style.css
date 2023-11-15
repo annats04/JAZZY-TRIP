@@ -118,8 +118,23 @@ iframe {
   text-align: center;
 }
 
+.about-section a {
+  color: black;
+  transition: 0.5s;
+}
+.about-section a:hover {
+  color: gray;
+}
+
 @media screen and (max-width: 567px) {
   iframe:not(:first-child) {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .copy {
+    column-count: 3;
+    text-align: justify;
   }
 }
