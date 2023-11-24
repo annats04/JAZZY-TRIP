@@ -135,9 +135,18 @@ iframe {
   color: gray;
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   iframe:not(:first-child) {
     display: none;
+  }
+  .genre-text {
+    font-size: 15px;
+  }
+  .playlist-title {
+    font-size: 32px;
+  }
+  .playlist-intro {
+    max-width: 100%;
   }
 }
 
