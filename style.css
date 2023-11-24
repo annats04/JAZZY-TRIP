@@ -31,7 +31,7 @@ nav .logo {
   margin-right: 50px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  transition: 0.5s;
+  transition: 0.05s;
   color: black;
   letter-spacing: 5px;
 }
